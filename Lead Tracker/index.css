@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Arial, Helvetica, sans-serif;
+    min-width: 400px;
 }
 
 
@@ -19,8 +20,6 @@ input {
     padding-left: 10px;
     padding-right: 10px;
     box-sizing: border-box;
-    padding-top: 10px;
-    padding-bottom: 10px;
     border: 1px solid #5f9341;
     margin: 4px;
 
@@ -35,4 +34,17 @@ button {
     border: none;
     font-weight: bold;
 
+}
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin-top: 5px;
+}
+
+a{
+    color: #5f9341;
 }
