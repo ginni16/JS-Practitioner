@@ -28,9 +28,15 @@ function renderLeads() {
 
          // Wrap the lead in an anchor tag (<a>) inside the <li>
         // Can you make the link open in a new tab?
-        listItems += "<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>"
-
-        
+        // listItems += "<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>"
+             listItems += `
+             <li>
+                 <a target='_blank' href='${myLeads[i]}'>
+                     ${myLeads[i]}
+                 </a>
+             </li>
+             `
+             
     }
     ulEl.innerHTML = listItems  
 }
